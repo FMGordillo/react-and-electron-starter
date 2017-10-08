@@ -4,13 +4,21 @@
   "private": true,
   "dependencies": {
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-dom": "^16.0.0"
   },
+  "homepage": "./",
+  "main": "src/electron-starter.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev" : "nf start -p 3000",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.7.8",
+    "foreman": "^2.0.0",
+    "react-scripts": "1.0.14"
   }
 }
